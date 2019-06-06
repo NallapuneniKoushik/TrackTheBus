@@ -1,0 +1,66 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T R A C K Y"
+            android:textSize="36sp"
+            android:fontFamily="cursive"
+            style="@style/amu_Bubble.TextAppearance.Dark"
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"
+            android:textColor="#f9214c"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="driver"
+        android:padding="10sp"
+        android:background="@drawable/button_background"
+        android:text="Traveller"
+        android:textAllCaps="false"
+        android:textColor="#f77d0b"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="user"
+        android:background="@drawable/button_background"
+        android:padding="10sp"
+        android:text="User"
+        android:textAllCaps="false"
+        android:textColor="#0b4ef7"
+        android:textSize="20dp" />
+
+
+
+
+
+
+</LinearLayout>

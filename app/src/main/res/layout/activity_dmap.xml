@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DMap">
+
+    <Button
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="127dp"
+        android:padding="10dp"
+        android:text="Set OK"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="137dp" />
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/button_create"
+        android:layout_width="376dp"
+        android:layout_height="87dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="5dp"
+        android:foregroundTint="@android:color/holo_blue_dark"
+        app:button_bottom_padding="13dp"
+        app:button_image_disabled="@drawable/ic_navigate_next_black_24dp"
+
+        app:button_image_enabled="@drawable/ic_mood_black_24dp"
+        app:button_left_padding="13dp"
+        app:button_right_padding="13dp"
+        app:button_top_padding="13dp"
+        app:inner_text="Start Ride"
+        app:inner_text_bottom_padding="15dp"
+        app:inner_text_size="20dp"
+        app:inner_text_top_padding="15dp"
+        android:layout_alignParentLeft="true">
+
+    </com.ebanx.swipebtn.SwipeButton>
+
+
+</RelativeLayout>

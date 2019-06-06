@@ -1,0 +1,135 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/ubackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15sp"
+        android:layout_marginBottom="25sp"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="Registration Page"
+        android:textAllCaps="false"
+        android:textColor="#f2081b"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:hint="First Name"
+        android:maxEms="20"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:layout_margin="5dp"
+        android:textColor="#39e10b"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="Last Name"
+        android:maxEms="20"
+        android:layout_margin="5dp"
+        android:inputType="textPersonName"
+        android:maxLength="20"
+        android:textColor="#39e10b"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:hint="Contact no"
+        android:layout_margin="5dp"
+        android:maxEms="10"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textColor="#39e10b"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:hint="Email"
+        android:maxEms="50"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:layout_margin="5dp"
+        android:textColor="#39e10b"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:onClick="selectDOB"
+        android:text="Select Dob"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:layout_marginLeft="20dp"
+        android:text="Select DOB"
+        android:textColor="#fa7c0e"
+
+        />
+
+</LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et5"
+        android:hint="Password"
+        android:maxEms="20"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:layout_margin="5dp"
+        android:textColor="#39e10b"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:onClick="register"
+        />
+
+</LinearLayout>

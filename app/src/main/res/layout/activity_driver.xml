@@ -1,0 +1,65 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ubackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uname"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textColor="#0b24e2"
+        android:textAllCaps="false"
+        android:padding="15sp"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upword"
+        android:hint="Password"
+       android:inputType="textPassword"
+        android:textColor="#0b24e2"
+        android:textAllCaps="false"
+        android:padding="15sp"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:onClick="validate"
+        android:text="Login"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:textColor="#f1830e"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:background="@drawable/button_background"
+        android:onClick="register"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#f10ea9"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+
+        />
+
+
+
+</LinearLayout>

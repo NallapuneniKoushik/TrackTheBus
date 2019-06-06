@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nkc.com.trackthebus">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trackicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".DriverActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".DBUSActivity" />
+        <activity android:name=".LocationActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".LocActivity" />
+        <activity android:name=".GetActivity" />
+        <activity android:name=".Maps2Activity" />
+        <activity android:name=".Maps3Activity" />
+        <activity android:name=".Maps4Activity" />
+        <activity android:name=".Get2Activity" />
+        <activity
+            android:name=".UserMap"
+            android:label="@string/title_activity_user_map" />
+        <activity android:name=".NMapsActivity" />
+        <activity android:name=".UMaps" />
+        <activity
+            android:name=".KMap"
+            android:label="@string/title_activity_kmap" />
+        <activity
+            android:name=".KMap2"
+            android:label="@string/title_activity_kmap2" />
+        <activity
+            android:name=".NMap"
+            android:label="@string/title_activity_nmap" />
+        <activity
+            android:name=".NMap2"
+            android:label="@string/title_activity_nmap2" />
+        <activity android:name=".DMap" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

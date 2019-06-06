@@ -1,0 +1,18 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Update BUS Location"
+        android:onClick="update"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:textColor="#3dec15"
+        />
+</LinearLayout>

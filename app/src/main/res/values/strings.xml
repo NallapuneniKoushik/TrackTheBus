@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TrackTheBus</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_map">Map</string>
+    <string name="title_activity_kmap">Map</string>
+    <string name="title_activity_kmap2">Map</string>
+    <string name="title_activity_nmap">Map</string>
+    <string name="title_activity_nmap2">Map</string>
+    <string name="choose_an_activity_below">Choose an Activity below</string>
+    <string name="driver">Driver</string>
+    <string name="user">User</string>
+    <string name="halo_anil">Halo Anil !</string>
+    <string name="sign_out">Sign out</string>
+    <string name="you_are_logged_in">You are Logged In</string>
+
+</resources>
